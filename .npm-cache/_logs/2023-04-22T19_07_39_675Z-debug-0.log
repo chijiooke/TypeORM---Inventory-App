@@ -1,0 +1,226 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@8.19.3
+2 info using node@v18.13.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/chijiooke/Desktop/inventory-app/.npmrc Completed in 2ms
+10 timing config:load:project Completed in 7ms
+11 timing config:load:file:/Users/chijiooke/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 15ms
+19 timing npm:load:configload Completed in 15ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm i typeorm @matchmakerjs/matchmaker-typeorm
+23 verbose argv "i" "typeorm" "@matchmakerjs/matchmaker-typeorm"
+24 timing npm:load:setTitle Completed in 21ms
+25 timing config:load:flatten Completed in 3ms
+26 timing npm:load:display Completed in 4ms
+27 verbose logfile logs-max:10 dir:/Users/chijiooke/Desktop/inventory-app/.npm-cache/_logs
+28 verbose logfile /Users/chijiooke/Desktop/inventory-app/.npm-cache/_logs/2023-04-22T19_07_39_675Z-debug-0.log
+29 timing npm:load:logFile Completed in 5ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 47ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 261ms
+37 timing idealTree:userRequests Completed in 5ms
+38 silly idealTree buildDeps
+39 silly fetch manifest typeorm@*
+40 timing arborist:ctor Completed in 1ms
+41 http fetch GET 200 https://registry.npmjs.org/typeorm 212ms (cache hit)
+42 silly fetch manifest @google-cloud/spanner@^5.18.0
+43 http fetch GET 200 https://registry.npmjs.org/@google-cloud%2fspanner 5ms (cache hit)
+44 silly fetch manifest @sap/hana-client@^2.12.25
+45 http fetch GET 200 https://registry.npmjs.org/@sap%2fhana-client 5ms (cache hit)
+46 silly fetch manifest better-sqlite3@^7.1.2 || ^8.0.0
+47 http fetch GET 200 https://registry.npmjs.org/better-sqlite3 5ms (cache hit)
+48 silly fetch manifest hdb-pool@^0.1.6
+49 http fetch GET 200 https://registry.npmjs.org/hdb-pool 4ms (cache hit)
+50 silly fetch manifest ioredis@^5.0.4
+51 http fetch GET 200 https://registry.npmjs.org/ioredis 5ms (cache hit)
+52 silly fetch manifest mongodb@^5.2.0
+53 http fetch GET 200 https://registry.npmjs.org/mongodb 5ms (cache hit)
+54 silly fetch manifest @aws-sdk/credential-providers@^3.201.0
+55 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcredential-providers 5ms (cache hit)
+56 silly fetch manifest mongodb-client-encryption@>=2.3.0 <3
+57 http fetch GET 200 https://registry.npmjs.org/mongodb-client-encryption 5ms (cache hit)
+58 silly fetch manifest gcp-metadata@^5.2.0
+59 http fetch GET 200 https://registry.npmjs.org/gcp-metadata 5ms (cache hit)
+60 silly fetch manifest snappy@^7.2.2
+61 http fetch GET 200 https://registry.npmjs.org/snappy 5ms (cache hit)
+62 silly fetch manifest mssql@^9.1.1
+63 http fetch GET 200 https://registry.npmjs.org/mssql 4ms (cache hit)
+64 silly fetch manifest mysql2@^2.2.5 || ^3.0.1
+65 http fetch GET 200 https://registry.npmjs.org/mysql2 4ms (cache hit)
+66 silly fetch manifest oracledb@^5.1.0
+67 http fetch GET 200 https://registry.npmjs.org/oracledb 6ms (cache hit)
+68 silly fetch manifest pg@^8.5.1
+69 http fetch GET 200 https://registry.npmjs.org/pg 3ms (cache hit)
+70 silly fetch manifest pg-native@>=3.0.1
+71 http fetch GET 200 https://registry.npmjs.org/pg-native 3ms (cache hit)
+72 silly fetch manifest pg-query-stream@^4.0.0
+73 http fetch GET 200 https://registry.npmjs.org/pg-query-stream 4ms (cache hit)
+74 silly fetch manifest redis@^3.1.1 || ^4.0.0
+75 http fetch GET 200 https://registry.npmjs.org/redis 4ms (cache hit)
+76 silly fetch manifest sql.js@^1.4.0
+77 http fetch GET 200 https://registry.npmjs.org/sql.js 4ms (cache hit)
+78 silly fetch manifest sqlite3@^5.0.3
+79 http fetch GET 200 https://registry.npmjs.org/sqlite3 3ms (cache hit)
+80 silly fetch manifest ts-node@^10.9.1
+81 http fetch GET 200 https://registry.npmjs.org/ts-node 3ms (cache hit)
+82 silly fetch manifest @swc/core@>=1.2.50
+83 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore 6ms (cache hit)
+84 silly fetch manifest @swc/helpers@^0.5.0
+85 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 3ms (cache hit)
+86 silly fetch manifest @swc/wasm@>=1.2.50
+87 http fetch GET 200 https://registry.npmjs.org/@swc%2fwasm 12ms (cache hit)
+88 silly fetch manifest @types/node@^18.15.13
+89 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 13ms (cache hit)
+90 silly fetch manifest typescript@^5.0.4
+91 http fetch GET 200 https://registry.npmjs.org/typescript 18ms (cache hit)
+92 silly fetch manifest typeorm-aurora-data-api-driver@^2.0.0
+93 http fetch GET 200 https://registry.npmjs.org/typeorm-aurora-data-api-driver 4ms (cache hit)
+94 silly fetch manifest @matchmakerjs/matchmaker-typeorm@*
+95 http fetch GET 401 https://npm.pkg.github.com/@matchmakerjs%2fmatchmaker-typeorm 1122ms (cache skip)
+96 silly placeDep ROOT @matchmakerjs/matchmaker-typeorm@ OK for: inventory-app@1.0.0 want: *
+97 silly placeDep ROOT typeorm@0.3.15 OK for: inventory-app@1.0.0 want: *
+98 silly fetch manifest @sqltools/formatter@^1.2.5
+99 silly fetch manifest app-root-path@^3.1.0
+100 silly fetch manifest buffer@^6.0.3
+101 silly fetch manifest cli-highlight@^2.1.11
+102 silly fetch manifest glob@^8.1.0
+103 silly fetch manifest mkdirp@^2.1.3
+104 silly fetch manifest sha.js@^2.4.11
+105 silly fetch manifest tslib@^2.5.0
+106 silly fetch manifest uuid@^9.0.0
+107 http fetch GET 200 https://registry.npmjs.org/sha.js 25ms (cache hit)
+108 http fetch GET 200 https://registry.npmjs.org/cli-highlight 29ms (cache hit)
+109 http fetch GET 200 https://registry.npmjs.org/buffer 31ms (cache hit)
+110 http fetch GET 200 https://registry.npmjs.org/@sqltools%2fformatter 34ms (cache hit)
+111 http fetch GET 200 https://registry.npmjs.org/uuid 28ms (cache hit)
+112 http fetch GET 200 https://registry.npmjs.org/tslib 30ms (cache hit)
+113 http fetch GET 200 https://registry.npmjs.org/glob 33ms (cache hit)
+114 http fetch GET 200 https://registry.npmjs.org/app-root-path 37ms (cache hit)
+115 http fetch GET 200 https://registry.npmjs.org/mkdirp 34ms (cache hit)
+116 timing idealTree:#root Completed in 1661ms
+117 timing idealTree:node_modules/@matchmakerjs/matchmaker-typeorm Completed in 0ms
+118 silly placeDep ROOT @sqltools/formatter@1.2.5 OK for: typeorm@0.3.15 want: ^1.2.5
+119 silly placeDep ROOT app-root-path@3.1.0 OK for: typeorm@0.3.15 want: ^3.1.0
+120 silly placeDep ROOT buffer@6.0.3 OK for: typeorm@0.3.15 want: ^6.0.3
+121 silly placeDep ROOT cli-highlight@2.1.11 OK for: typeorm@0.3.15 want: ^2.1.11
+122 silly placeDep node_modules/typeorm glob@8.1.0 OK for: typeorm@0.3.15 want: ^8.1.0
+123 silly placeDep ROOT mkdirp@2.1.6 OK for: typeorm@0.3.15 want: ^2.1.3
+124 silly placeDep ROOT sha.js@2.4.11 OK for: typeorm@0.3.15 want: ^2.4.11
+125 silly placeDep node_modules/typeorm tslib@2.5.0 OK for: typeorm@0.3.15 want: ^2.5.0
+126 silly placeDep ROOT uuid@9.0.0 OK for: typeorm@0.3.15 want: ^9.0.0
+127 silly fetch manifest base64-js@^1.3.1
+128 silly fetch manifest ieee754@^1.2.1
+129 silly fetch manifest highlight.js@^10.7.1
+130 silly fetch manifest mz@^2.4.0
+131 silly fetch manifest parse5@^5.1.1
+132 silly fetch manifest parse5-htmlparser2-tree-adapter@^6.0.0
+133 silly fetch manifest yargs@^16.0.0
+134 silly fetch manifest minimatch@^5.0.1
+135 silly fetch manifest safe-buffer@^5.0.1
+136 http fetch GET 200 https://registry.npmjs.org/base64-js 20ms (cache hit)
+137 http fetch GET 200 https://registry.npmjs.org/mz 19ms (cache hit)
+138 http fetch GET 200 https://registry.npmjs.org/parse5 20ms (cache hit)
+139 http fetch GET 200 https://registry.npmjs.org/ieee754 23ms (cache hit)
+140 http fetch GET 200 https://registry.npmjs.org/highlight.js 22ms (cache hit)
+141 http fetch GET 200 https://registry.npmjs.org/parse5-htmlparser2-tree-adapter 23ms (cache hit)
+142 http fetch GET 200 https://registry.npmjs.org/safe-buffer 22ms (cache hit)
+143 http fetch GET 200 https://registry.npmjs.org/yargs 24ms (cache hit)
+144 http fetch GET 200 https://registry.npmjs.org/minimatch 28ms (cache hit)
+145 timing idealTree:node_modules/typeorm Completed in 50ms
+146 timing idealTree:node_modules/@sqltools/formatter Completed in 0ms
+147 timing idealTree:node_modules/app-root-path Completed in 0ms
+148 silly placeDep ROOT base64-js@1.5.1 OK for: buffer@6.0.3 want: ^1.3.1
+149 silly placeDep ROOT ieee754@1.2.1 OK for: buffer@6.0.3 want: ^1.2.1
+150 timing idealTree:node_modules/buffer Completed in 3ms
+151 timing idealTree:node_modules/base64-js Completed in 0ms
+152 silly placeDep ROOT highlight.js@10.7.3 OK for: cli-highlight@2.1.11 want: ^10.7.1
+153 silly placeDep ROOT mz@2.7.0 OK for: cli-highlight@2.1.11 want: ^2.4.0
+154 silly placeDep ROOT parse5@5.1.1 OK for: cli-highlight@2.1.11 want: ^5.1.1
+155 silly placeDep ROOT parse5-htmlparser2-tree-adapter@6.0.1 OK for: cli-highlight@2.1.11 want: ^6.0.0
+156 silly placeDep node_modules/cli-highlight yargs@16.2.0 OK for: cli-highlight@2.1.11 want: ^16.0.0
+157 silly fetch manifest any-promise@^1.0.0
+158 silly fetch manifest object-assign@^4.0.1
+159 silly fetch manifest thenify-all@^1.0.0
+160 silly fetch manifest parse5@^6.0.1
+161 silly fetch manifest yargs-parser@^20.2.2
+162 http fetch GET 200 https://registry.npmjs.org/yargs-parser 10ms (cache hit)
+163 http fetch GET 200 https://registry.npmjs.org/object-assign 15ms (cache hit)
+164 http fetch GET 200 https://registry.npmjs.org/thenify-all 14ms (cache hit)
+165 http fetch GET 200 https://registry.npmjs.org/any-promise 16ms (cache hit)
+166 timing idealTree:node_modules/cli-highlight Completed in 23ms
+167 timing idealTree:node_modules/highlight.js Completed in 0ms
+168 timing idealTree:node_modules/ieee754 Completed in 0ms
+169 timing idealTree:node_modules/mkdirp Completed in 0ms
+170 silly placeDep ROOT any-promise@1.3.0 OK for: mz@2.7.0 want: ^1.0.0
+171 silly placeDep ROOT object-assign@4.1.1 OK for: mz@2.7.0 want: ^4.0.1
+172 silly placeDep ROOT thenify-all@1.6.0 OK for: mz@2.7.0 want: ^1.0.0
+173 silly fetch manifest thenify@>= 3.1.0 < 4
+174 http fetch GET 200 https://registry.npmjs.org/thenify 3ms (cache hit)
+175 timing idealTree:node_modules/mz Completed in 7ms
+176 timing idealTree:node_modules/any-promise Completed in 1ms
+177 timing idealTree:node_modules/object-assign Completed in 0ms
+178 timing idealTree:node_modules/parse5 Completed in 0ms
+179 silly placeDep node_modules/parse5-htmlparser2-tree-adapter parse5@6.0.1 OK for: parse5-htmlparser2-tree-adapter@6.0.1 want: ^6.0.1
+180 timing idealTree:node_modules/parse5-htmlparser2-tree-adapter Completed in 1ms
+181 silly placeDep ROOT safe-buffer@5.2.1 OK for: sha.js@2.4.11 want: ^5.0.1
+182 timing idealTree:node_modules/sha.js Completed in 1ms
+183 timing idealTree:node_modules/safe-buffer Completed in 0ms
+184 silly placeDep ROOT thenify@3.3.1 OK for: thenify-all@1.6.0 want: >= 3.1.0 < 4
+185 timing idealTree:node_modules/thenify-all Completed in 1ms
+186 timing idealTree:node_modules/thenify Completed in 0ms
+187 timing idealTree:node_modules/uuid Completed in 0ms
+188 silly placeDep node_modules/cli-highlight yargs-parser@20.2.9 OK for: yargs@16.2.0 want: ^20.2.2
+189 timing idealTree:node_modules/cli-highlight/node_modules/yargs Completed in 1ms
+190 timing idealTree:node_modules/cli-highlight/node_modules/yargs-parser Completed in 0ms
+191 timing idealTree:node_modules/parse5-htmlparser2-tree-adapter/node_modules/parse5 Completed in 0ms
+192 silly placeDep node_modules/typeorm minimatch@5.1.6 OK for: glob@8.1.0 want: ^5.0.1
+193 timing idealTree:node_modules/typeorm/node_modules/glob Completed in 1ms
+194 timing idealTree:node_modules/typeorm/node_modules/minimatch Completed in 0ms
+195 timing idealTree:node_modules/typeorm/node_modules/tslib Completed in 0ms
+196 timing idealTree:buildDeps Completed in 1752ms
+197 timing idealTree:fixDepFlags Completed in 3ms
+198 timing idealTree Completed in 2023ms
+199 timing command:i Completed in 2035ms
+200 verbose stack HttpErrorGeneral: 401 Unauthorized - GET https://npm.pkg.github.com/@matchmakerjs%2fmatchmaker-typeorm - unauthenticated: User cannot be authenticated with the token provided.
+200 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:95:15
+200 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+200 verbose stack     at async RegistryFetcher.packument (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:92:19)
+200 verbose stack     at async RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:124:23)
+200 verbose stack     at async [nodeFromEdge] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1061:19)
+200 verbose stack     at async [buildDepStep] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:930:11)
+200 verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:211:7)
+200 verbose stack     at async Promise.all (index 1)
+200 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:154:5)
+200 verbose stack     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:145:5)
+201 verbose statusCode 401
+202 verbose pkgid @matchmakerjs/matchmaker-typeorm@*
+203 verbose cwd /Users/chijiooke/Desktop/inventory-app
+204 verbose Darwin 20.6.0
+205 verbose node v18.13.0
+206 verbose npm  v8.19.3
+207 error code E401
+208 error 401 Unauthorized - GET https://npm.pkg.github.com/@matchmakerjs%2fmatchmaker-typeorm - unauthenticated: User cannot be authenticated with the token provided.
+209 verbose exit 1
+210 timing npm Completed in 2168ms
+211 verbose unfinished npm timer reify 1682190459804
+212 verbose unfinished npm timer reify:loadTrees 1682190459812
+213 verbose code 1
+214 error A complete log of this run can be found in:
+214 error     /Users/chijiooke/Desktop/inventory-app/.npm-cache/_logs/2023-04-22T19_07_39_675Z-debug-0.log
